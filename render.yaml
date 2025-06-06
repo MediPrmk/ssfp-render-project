@@ -3,6 +3,6 @@ services:
     name: ssfp-webhook
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn main:app"
+    startCommand: "gunicorn Medi.main:app"
     plan: free
     rootDir: Medi
